@@ -1,5 +1,4 @@
 package configManager;
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
@@ -20,7 +19,4 @@ public class ConfigManager {
         return config.getProperty("employeeFileLocation");
     }
 
-    public static void main(String[] args) {
-        System.out.println(ConfigManager.employeeFileLocation());
-    }
 }
