@@ -14,8 +14,4 @@ public class EmployeesGenerator {
         return employeesMap;
     }
 
-    public static void main(String[] args) {
-        EmployeesGenerator employeesGenerator = new EmployeesGenerator();
-        System.out.println(employeesGenerator.generateEmployeesMap().get("198429").getFirstName());
-    }
 }
